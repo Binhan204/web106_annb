@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #a6f6f4;
+}
+
+header{
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0;
+}
+
+
+
+/* xu ly thiet bi co man hinh toi da la 768px */
+@media screen and (max-width: 768px) {
+ 
+}
