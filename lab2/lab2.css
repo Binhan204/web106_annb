@@ -1,0 +1,24 @@
+.khung{
+    width: 100%;
+    display: flex;
+}
+
+.tieude{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ptr{
+    width: 500px;
+}
+
+@media screen and (max-width: 768px){
+    .khung{
+        flex-direction: column-reverse;
+    }
+    .tieude{
+        text-align: center;
+    }
+    .ptr{
+        width: 100%;
+    }
+}
