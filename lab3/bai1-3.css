@@ -30,6 +30,22 @@
     text-align: center;
 }
 @media screen and (max-width: 768px) {
-    
-    
+    .header{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }
+    .noi-dung{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        
+    }
+    .nd{
+        width: 100%;
+    }
+    .ndc{
+        width: 100%;
+    }
 }
