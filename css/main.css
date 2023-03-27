@@ -1,17 +1,211 @@
-body {
-    margin: 0;
-    font-family: Helvetica, sans-serif;
-    background-color: #a6f6f4;
+.menu{
+    width: 100%;
+    height: fit-content;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border: 1px rgb(42, 252, 182) solid;
+}
+.list{
+    display: inline-block;
+    list-style: none;
+    padding-left: 40px;
+}
+.list>a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+.list>a:hover{
+    font-style: italic;
+    font-weight: bold;
 }
 
-header{
-    background-color: #fff;
-    box-shadow: 1px 1px 4px 0;
+.logo{
+    margin: 0px auto;
+    margin-top: 10px;
+    font-size: xx-large;
+}
+
+.search{
+    padding: 5px;
+    padding-right: 60px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.gioithieu{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+    background-color: rgb(227, 226, 226);
+}
+.banner>img{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 90%;
+}
+.text{
+    font-size: larger;
+    font-style: italic;
+}
+
+.line{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 42% 12% 42%;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+.duongke{
+    border: 1px black solid;
+    background-color: black;
+    height: 1px; 
+    margin: 10px;
+}
+.tieude{
+    text-align: center;
+    margin: 0px;
+}
+
+.menusp{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% ;
+    justify-content:space-around;
+}
+.sp{
+    text-align: center;
+}
+.sp:hover{
+    background-color: rgb(250, 248, 248);
+}
+
+.mau{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23% ;
+    justify-content:space-evenly;
+}
+.mausp{
+    width: 100%;
+    text-align: center;
+}
+.anhsp{
+    width: 100%;
+    border-radius: 10px;
+}
+.dichvu{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 21% 21% 21% 21%;
+    justify-content: space-around;
+    background-color: rgb(236, 235, 235);
+    text-align: center;
+    padding-bottom: 30px;
+}
+.oder{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    border: 0.5px gray solid;
+}
+.input{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+.input:hover{
+    color: aqua;
+}
+.footer{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.logo2{
+    margin: 50px 50px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+.lienhe{
+    margin-left: 150px;
 }
 
 
 
-/* xu ly thiet bi co man hinh toi da la 768px */
-@media screen and (max-width: 768px) {
- 
+/* ipad air */
+@media screen and (max-width: 820px) {
+    .list{
+        display:list-item;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .gioithieu{
+        display: grid;
+        grid-template-columns: 30% 65%;
+    }
+    .menusp{
+        grid-template-columns: 30% 30% 30%;
+    }
+    .mau{
+        grid-template-columns: 30% 30% 30%;
+    }
+    .footer{
+        text-align: center;
+    }
+   .lienhe{
+    margin: 0px;
+   }
+    
+}
+
+/* ip 12 promax */
+@media screen and (max-width: 390px) {
+    .gioithieu{
+        display: block;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner>img{
+        width: 100%;
+    }
+    .x-text{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .menusp{
+        grid-template-columns: 45% 45%;
+    }
+    .mau{
+        grid-template-columns: 45% 45%;
+    }
+    .footer{
+        font-size: x-small;
+    }
+    .dichvu{
+        grid-template-columns: 45% 45%;
+    }
 }
