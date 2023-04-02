@@ -1,0 +1,10 @@
+.aa{
+    padding-left: 70%;
+}
+
+@media screen and (max-width: 990px) {
+    .aa{
+        padding-left: 0px;
+    }
+    
+}
