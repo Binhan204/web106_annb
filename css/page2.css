@@ -1,0 +1,94 @@
+.aa {
+    padding-left: 15%;
+}
+
+.bb>:hover {
+    font-style: italic;
+}
+
+.line {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 42% 12% 42%;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+.duongke {
+    border: 1px black solid;
+    background-color: black;
+    height: 1px;
+    margin: 10px;
+}
+
+.tieude {
+    text-align: center;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.btMua {
+    padding: 15px 10px;
+    border: 1px rgb(204, 203, 203) solid;
+    border-radius: 5px;
+    background-color: rgb(204, 203, 203);
+}
+
+.s-text {
+    font-size: medium;
+    padding: 15px;
+}
+
+.oder {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.input {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.logo2 {
+    margin: 50px 50px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.lienhe {
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 990px) {
+    .footer {
+        text-align: center;
+    }
+    .lienhe {
+        margin: 0px;
+    }
+    .logo2{
+        font-size: 30px;
+    }
+    .s-text{
+        font-size: small;
+    }
+
+}

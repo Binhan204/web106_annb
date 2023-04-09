@@ -8,3 +8,73 @@
     }
     
 }
+
+.block7{
+    width: 100%;
+    height: 450px;
+    display: grid;
+    background-color:rgb(53 53 53);
+    grid-template-columns: 500px 400px 300px;
+}
+
+.anh8{
+    width: 250px;
+    padding-top: 30px;
+}
+.text6{
+    padding-left: 45px;
+    color: white;
+    font-size: larger;
+}
+.text7{
+    text-decoration: none;
+    color: white;
+    padding-left: 45px;
+}
+.text8{
+    padding-left: 45px;
+    color: white;
+}
+
+.text9{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.items{
+    list-style:none;
+    width: 110px;
+    padding: 10px 15px;
+}
+.items > a{
+    text-decoration: none;
+    color: gray;
+}
+.items >a:hover{
+    color: white;
+}
+.duongke{
+    width: 100%; 
+    height: 1px; 
+    background-color: rgb(43, 0, 255);
+}
+
+.block8{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    background-color:rgb(53 53 53);
+}
+
+.list{
+    list-style: none;
+    color: white;
+}
+.list > a{
+    color: gray;
+}
+
+
+
